@@ -1,0 +1,5 @@
+CREATE DATABASE manager;
+
+CREATE DATABASE point_records;
+
+CREATE DATABASE reports;
