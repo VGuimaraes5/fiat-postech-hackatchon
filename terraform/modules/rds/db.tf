@@ -19,7 +19,7 @@ resource "aws_db_instance" "fiap-rds-mysql-instance" {
   identifier             = "fiap-hackathon-db"
   allocated_storage      = 20
   engine_version         = "5.7"
-  instance_class         = "db.t2.micro"
+  instance_class         = "db.t3.micro"
   username               = var.db_username
   password               = var.db_password
   parameter_group_name   = "default.mysql5.7"

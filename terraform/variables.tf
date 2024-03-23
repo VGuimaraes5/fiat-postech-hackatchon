@@ -1,16 +1,16 @@
 variable "manager_ms_url" {
     type = string
-    default = "http://ad205163a8c1b419d94b303141ebd533-1939765825.us-east-1.elb.amazonaws.com:5001"
+    default = "http://aba6fbdaef42b4f9e9c7609d0230c12b-2092708295.us-east-1.elb.amazonaws.com:5001"
 }
 
 variable "point_record_ms_url" {
     type = string
-    default = "http://a0a4b7266346c4b8b9cd496124a20bc4-2007363354.us-east-1.elb.amazonaws.com:5002"
+    default = "http://ad4b614f9d972488db2d7dc67e8b8810-1651513005.us-east-1.elb.amazonaws.com:5002"
 }
 
 variable "reports_ms_url" {
     type = string
-    default = "http://a49c9ea4f6edf47d793294a2b1ff4819-372335033.us-east-1.elb.amazonaws.com:5003"
+    default = "http://a41e93fec6497499e84422f36c017f69-1952889263.us-east-1.elb.amazonaws.com:5003"
 }
 
 variable "db_username" {
